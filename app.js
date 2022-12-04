@@ -1,8 +1,6 @@
 const http = require('http');
 const messages = require('./modules/messages');
-const port = 4000;
-
-console.log(messages);
+const port = process.env.port || 4000;
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
@@ -11,4 +9,4 @@ http.createServer(function (req, res) {
   res.end();
 }).listen(port);
 
-console.log("Running at port " + port)
+console.log("Running at port " + port);
