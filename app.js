@@ -1,9 +1,14 @@
 const http = require('http');
+const messages = require('./modules/messages');
 const port = 4000;
+
+console.log(messages);
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
-  res.end('Hello for Node JS');
+  res.write(messages.title());
+  res.write(messages.subtitle);
+  res.end();
 }).listen(port);
 
 console.log("Running at port " + port)

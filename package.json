@@ -1,7 +1,7 @@
 {
-  "name": "nodejs_hello",
+  "name": "nodejs_modules",
   "version": "1.0.0",
-  "description": "nodejs hello project",
+  "description": "nodejs modules",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -9,16 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uthcst/nodejs_hello.git"
+    "url": "git+https://github.com/uthcst/nodejs_modules.git"
   },
   "keywords": [
     "nodejs",
-    "hello"
+    "modules"
   ],
   "author": "uthcst",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/uthcst/nodejs_hello/issues"
+    "url": "https://github.com/uthcst/nodejs_modules/issues"
   },
-  "homepage": "https://github.com/uthcst/nodejs_hello#readme"
+  "homepage": "https://github.com/uthcst/nodejs_modules#readme"
 }
